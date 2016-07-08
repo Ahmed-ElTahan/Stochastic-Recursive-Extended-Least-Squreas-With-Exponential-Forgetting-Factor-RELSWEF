@@ -57,5 +57,5 @@ end
 y = y';
 
 
-%% Estimation using RecursiveExtendedLeastSquares function
+%% Estimation using RecursiveExtendedLeastSquaresWEF function
 [ theta, Gz_estm ] = RecursiveExtendedLeastSquaresWEF( u, y, 2, 1, 1, 2, Ts, lambda) % 2nd RELSWEF order estimation
