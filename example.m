@@ -5,7 +5,7 @@
         know its parameters and its orders (na, nb, nc and d). By exciting its output with a certain input
         which is here is a damped sine, I can get the input and output of
         this dynamic system as similar as an experiment. Now I use these
-        input and output vectors with the RELS algorithm to estimate the
+        input and output vectors with the RELSWEF algorithm to estimate the
         parameters
         This is going to be the model in this example
         A = [1 -0.4 0.5]; B = [1.2, 0.3]; C = [1, 0.8 -0.1]; % True plant to be estimated
